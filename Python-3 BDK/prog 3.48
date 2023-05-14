@@ -1,0 +1,8 @@
+alpha = int(input())
+ hour = 30
+minute = hour/60
+second = minute/60
+h = (alpha//hour)%60
+m = (alpha // minute) % 60
+s = (alpha // second) % 60
+ print(h, m, s)

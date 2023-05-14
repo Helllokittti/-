@@ -1,0 +1,3 @@
+from random import randint
+from itertools import permutations as per
+[print(*i) for i in per(str(randint(100, 1000)))]

@@ -1,0 +1,4 @@
+b=''
+for i in range(10, 100):
+    b += str(i)
+print(b[int(input())-1])
