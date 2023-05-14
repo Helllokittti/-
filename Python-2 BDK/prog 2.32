@@ -1,0 +1,6 @@
+m = int(input()) #монитор
+s = int(input()) #системный блок
+k = int(input()) #клавиатура
+v = int(input()) #мышь 
+N = int(input()) #компьютеров
+print((m+s+k+v)*N)

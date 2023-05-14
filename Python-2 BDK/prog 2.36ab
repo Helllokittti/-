@@ -1,0 +1,4 @@
+celsius = input("значение температуры в цельсиях:")
+fahrenheit = int(celsius) * 1.8 + 32
+kelvin = int(celsius) + 273.15
+print("Начальная температура: {0}(С)nПеревод в фаренгейты: {1}(F)nПеревод в кельвины: {2}(K)". format(celsius, fahrenheit, kelvin))

@@ -1,0 +1,7 @@
+x = int(input())
+y = int(input())
+z = int(input())
+Konf = 100
+Pech = 120
+Yabl = 50
+print(Konf * x + Pech  * y + Yabl * z)

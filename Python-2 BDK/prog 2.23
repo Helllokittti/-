@@ -1,0 +1,6 @@
+import math
+x = int(input('введите ширину прямоуголника: '))
+y = int(input('введите длину прямоугольника: '))
+s = x * 2 + y*2
+r = math.sqrt(s)
+print (r)

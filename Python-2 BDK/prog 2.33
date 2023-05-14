@@ -1,0 +1,6 @@
+x = int(input())
+y = int(input())
+medium = (x + y) / 2
+print(medium)
+print('Возраст Тани отличается от среднего на', abs(medium - x), 'лет')
+print('Возраст Мити отличается от среднего на', abs(medium - y), 'лет')

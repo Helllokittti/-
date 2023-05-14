@@ -1,0 +1,4 @@
+import math
+a = int(input())
+x = math.sqrt((2*a + math.sin(3*a))/3.56)
+print (x)

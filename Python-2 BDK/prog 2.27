@@ -1,0 +1,5 @@
+from math import sqrt
+ a = int(input("Длина большего основания:"))
+b = int(input("Длина меньшего основания:"))
+h = int(input("Высота:"))
+print("P =", a + b + 2 * sqrt(sqrt(h) + sqrt(a - b) / 4))

@@ -1,0 +1,8 @@
+from math import tan, radians
+a = int(input('a = '))
+b = int(input('b = '))
+A = int(input('A = '))
+h = ((a - b) / 2) * tan(radians(A))
+S = ((a + b) / 2) * h
+print(round(S, 1))
+input()
