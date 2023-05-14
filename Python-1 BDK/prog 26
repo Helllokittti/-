@@ -1,0 +1,3 @@
+# Стивенсон, упражнение 26
+import time
+print(time.ctime())
