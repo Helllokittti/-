@@ -1,0 +1,6 @@
+def searh_n(a):
+flag=False
+for i in (str(a)):
+if int(i)==n:
+flag=True
+return flag

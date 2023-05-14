@@ -1,0 +1,9 @@
+from math import prod
+num = input()
+num_int = list(map(int, num))
+num_str = list(map(str, num))
+print(('No', 'Yes')[9<sum(list(num_int))<100])
+print(('No', 'Yes')[99<prod(num_int)<1000])
+print(('Yes', 'No')[prod(num_int)<int(''.join(num_str))])
+print(('No', 'Yes')[sum(num_int)%5==0])
+print(('No', 'Yes')[sum(num_int)%int(num)==0])

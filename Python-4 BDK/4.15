@@ -1,0 +1,23 @@
+a = int(input())
+b = int(input())
+c = int(input())
+D = b ** 2 - 4 * a * c
+if D > 0:
+x1 = (-b + D ** 0.5) / (2 * a)
+x2 = (-b - D ** 0.5) / (2 * a)
+r1 = (round(min(x1, x2) - int(min(x1, x2)), 6))
+r2 = (round(max(x1, x2) - int(max(x1, x2)), 6))
+if r1 > 0 and r2 == 0:
+print(round(min(x1, x2), 6), int(max(x1, x2)))
+elif r2 > 0 and r1 == 0:
+print(int(min(x1, x2)), round(max(x1, x2), 6))
+elif r1 > 0 and r2 > 0:
+print(round(min(x1, x2), 6), round(max(x1, x2), 6))
+else:
+print(int(min(x1, x2)), int(max(x1, x2)))
+elif D == 0:
+x = - b / (2 * a)
+if x - int(x) > 0:
+print(round(x, 6))
+else:
+print(int(x))

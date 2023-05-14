@@ -1,0 +1,2 @@
+a, b, с = map(float, input().split())
+print("Есть равные" if (a==b or b==c or a==c) else "Нет равных")

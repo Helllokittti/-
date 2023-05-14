@@ -1,0 +1,5 @@
+arg = str(input('Enter number:'))
+if '4' in arg or '7' in arg:
+print 'yes'
+else:
+print 'no'

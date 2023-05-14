@@ -1,0 +1,7 @@
+n = int(input())
+a, c, d, p, q = map(float, input().split())
+xn = a * p**n + q * ( 1 - p**n) / (1 - p)
+if c <= xn <= d :
+    print('yes')
+else:
+    print('no')

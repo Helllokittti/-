@@ -1,0 +1,4 @@
+from math import pi 
+strian = float(input())
+sc = float(input())
+print(4*pi*strian <= 3**(3/2)*sc)

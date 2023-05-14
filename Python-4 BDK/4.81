@@ -1,0 +1,26 @@
+import math
+a = 1.0
+b = 2.0
+c = 3.0
+A = math.degrees(math.acos(math.radians(((b**2 + c**2 - a**2) / 2 * b * c))))
+B = math.degrees(math.acos(math.radians(((a**2 + c**2 - b**2) / 2 * a * c))))
+C = math.degrees(math.acos(math.radians(((a**2 + b**2 - c**2) / 2 * a * b))))
+ravnobedr = (a == b and a == c) or (a == b and b == c) or (a == c and b == c)
+ravostor = a == b == c
+priamoug = A == 90 or B == 90 or C == 90
+ostroug = A < 90 or B < 90 or C < 90
+tupoug = A > 90 or B > 90 or C > 90
+print(
+    '''
+равнобедренный {}
+равносторонний {}
+прямоугольный  {}
+остроугольный  {}
+тупоугольный   {}
+'''.format(
+ravnobedr,
+ravostor,
+priamoug,
+ostroug,
+tupoug,
+)

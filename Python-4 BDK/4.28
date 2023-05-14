@@ -1,0 +1,5 @@
+n = int(input())
+a = int(input())
+digits_sum = sum(map(int, str(n)))
+print('YES' if digits_sum >= 10 else 'NO')
+print('YES' if digits_sum > a else 'NO')

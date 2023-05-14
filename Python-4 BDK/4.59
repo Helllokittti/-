@@ -1,0 +1,5 @@
+a, b, c = 10, 10, 10
+if a == b == c:
+__print("YES")
+else:
+__print("NO")

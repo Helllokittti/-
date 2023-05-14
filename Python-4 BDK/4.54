@@ -1,0 +1,6 @@
+def searh_4(a):
+flag=False
+for i in (str(a)):
+if int(i)==4:
+flag=True
+return flag

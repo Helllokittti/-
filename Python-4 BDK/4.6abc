@@ -1,0 +1,4 @@
+x = float(input())
+print('а)', 0 if x <= -1 else 1 if x >= 1 else x - 1)
+print('б)', 1 if x <= -1 else -1 if x >= 1 else -x)
+print('в)', -0.5 * x + 0.5 if -1 <= x <= 0 else 0.5 * x + 0.5 if 0 <= x <= 1 else 1)
